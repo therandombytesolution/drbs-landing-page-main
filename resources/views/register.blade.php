@@ -85,6 +85,40 @@
                 width: 100%;
             }
         }
+        
+        /* Mobile Form Padding Fix - All Registration Steps */
+        @media (max-width: 767px) {
+            .registration-card .card-body {
+                padding: 1.5rem !important;
+            }
+            
+            .registration-card .card-body .text-center.mb-5 {
+                margin-bottom: 2rem !important;
+            }
+            
+            /* All form steps padding */
+            .form-step {
+                padding: 0 !important;
+            }
+            
+            /* Adjust container padding */
+            section.py-5 .container {
+                padding-left: 1rem !important;
+                padding-right: 1rem !important;
+            }
+        }
+        
+        @media (max-width: 575px) {
+            .registration-card .card-body {
+                padding: 1rem !important;
+            }
+            
+            /* Tighter spacing for very small screens */
+            section.py-5 .container {
+                padding-left: 0.75rem !important;
+                padding-right: 0.75rem !important;
+            }
+        }
     </style>
 </head>
 <body>

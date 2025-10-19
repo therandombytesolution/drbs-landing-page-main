@@ -109,6 +109,47 @@
             transform: translateY(0);
             box-shadow: 0 3px 10px rgba(0, 136, 204, 0.4);
         }
+        
+        /* Mobile Form Padding Fix - Support Forms */
+        @media (max-width: 767px) {
+            .support-card .card-body {
+                padding: 1.5rem !important;
+            }
+            
+            .card .card-body.p-5 {
+                padding: 1.5rem !important;
+            }
+            
+            .card .card-body.p-4 {
+                padding: 1.25rem !important;
+            }
+            
+            /* Adjust container padding */
+            section.py-5 .container {
+                padding-left: 1rem !important;
+                padding-right: 1rem !important;
+            }
+        }
+        
+        @media (max-width: 575px) {
+            .support-card .card-body {
+                padding: 1rem !important;
+            }
+            
+            .card .card-body.p-5 {
+                padding: 1rem !important;
+            }
+            
+            .card .card-body.p-4 {
+                padding: 1rem !important;
+            }
+            
+            /* Tighter spacing for very small screens */
+            section.py-5 .container {
+                padding-left: 0.75rem !important;
+                padding-right: 0.75rem !important;
+            }
+        }
     </style>
 </head>
 <body>
