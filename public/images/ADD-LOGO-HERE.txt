@@ -1,0 +1,40 @@
+╔════════════════════════════════════════════════════════════════╗
+║                    DRBS LOGO FILES NEEDED                      ║
+╚════════════════════════════════════════════════════════════════╝
+
+Please add the following files to this directory:
+
+1. drbs-logo-small.png
+   - Size: 64x64px or 128x128px
+   - Format: PNG with transparent background
+   - Content: Circular DRBS logo with blue gradient
+
+2. drbs-icon.ico
+   - Size: 32x32px (or multi-size)
+   - Format: ICO
+   - Content: DRBS logo for browser favicon
+
+HOW TO CREATE THESE FILES:
+---------------------------
+
+From your DRBS logo image:
+
+1. Open in image editor (Photoshop, GIMP, Photopea, etc.)
+2. Resize to 64x64px (or 128x128px for better quality)
+3. Export as PNG with transparent background
+4. Save as "drbs-logo-small.png" in THIS directory
+
+For the favicon:
+1. Visit: https://favicon.io/favicon-converter/
+2. Upload your DRBS logo
+3. Download the generated .ico file
+4. Rename to "drbs-icon.ico"
+5. Save in THIS directory
+
+AFTER ADDING FILES:
+-------------------
+1. Clear cache: php artisan cache:clear
+2. Refresh browser (Ctrl+F5)
+3. Check all pages to verify logo appears
+
+The code is already updated and ready to use these files!
